@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: bisque;
+}
+
+#head {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.boxes {
+  margin: auto;
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 0.5em;
+  background-color: #5f9ea0;
+  color: black;
+  font-size: 40px;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  padding: 10px;
+  /* width: 2rem; */
+  /* width: 100px; */
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  /* margin-bottom: 5px; */
+}
+
+#msg {
+  margin: 5px;
+  font-size: 25px;
+  color: #a52a2a;
+}
